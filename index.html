@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="Style.css">
+        <link rel="stylesheet" href="Style_telefono.css">
+        <link rel="stylesheet" href="Style_tablet.css">
+        <title>Encriptador</title>
+    </head>
+    <body id="cuerpo">
+        <header>
+            <img src="Logo.png" class="alura" id="Alura1">
+            <img src="Alura_colores.png" class="alura alura2-proporcion" id="Alura2">
+            <div class="estilosNav">
+            <button value="boton-claro" class="forma-boton claro" id="boton-claro"></button>
+            <button value="boton-oscuro" class="forma-boton oscuro" id="boton-oscuro"></button>
+            <button value="Minecraft" class="forma-boton Mine" id="Minecraft"></button>
+            </div>
+        </header>
+        <textarea class="caja-texto" placeholder="Ingrese texto aquí" id="text-emisor" autofocus></textarea>
+
+        <p class="reglas" id="parrafo-reglas"><span id="advertencia">&#9888</span> - Solo letras minúsculas y sin acentos</p>
+
+        <div class="botones">
+            <button value="Encriptar" class="boton boton-encriptar tipografia" id="encriptar">Encriptar</button>
+            <button value="Desencriptar" class="boton boton-desencriptar tipografia" id="desencriptar">Desencriptar</button>
+        </div>
+
+        <div class="caja-posicion caja-decoracion" id="contenedor_secundario">
+            <div class="caja-caja">
+                <img src="Muñeco.png" class="imagen-predeterminada" id="imagenLupa">
+                <img src="Buho.jpg" class="dibujo" id="buho">
+                <img src="Alex.jpg" class="dibujo-minecraft" id="alex-minecraft">
+                <p id="parrafo-receptor">Ningún mensaje fue encontrado</p>
+                <textarea placeholder="Aquí se encriptara y desencriptara el texto" id="text-receptor" disabled></textarea>
+                <button value="Copiar" class="boton boton-copiar tipografia" id="copiar">Copiar</button>
+            </div>
+        </div>
+        <footer>
+            <h2 class="estilo-autor" id="autor">Hecho por: Gunther Nettel Rosario</h2>
+        </footer>
+    <script src="funciones.js"></script> 
+    </body>
+</html>

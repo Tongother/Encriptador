@@ -1,0 +1,124 @@
+@media screen and (min-height: 700px) and (max-width: 920px){
+    .body{
+        width: 850px;
+        height: 1200px;
+    }
+
+    .alura{
+        left: 4.27%;
+        right: 87.2%;
+        top: 5%;
+        bottom: 25%;
+    }
+
+    .estilosNav{
+        position: relative;
+        width: 600px;
+        height: 77px;
+        left: 15%;
+        margin-top: 100px;
+        border: none;
+    }
+
+    .caja-texto{
+        position: relative;
+        width: 750px;
+        height: 680px;
+        left: 100px;
+        top: 30px;
+        font-size: 50px;
+    }
+
+    .botones{
+        position: relative;
+        flex-direction: column;
+        left: 5%;
+        top: 0px;
+        height: 300px;
+    }
+
+    .boton{
+        width: 850px;
+        height: 200px;
+        font-size: 50px;
+    }
+
+    .boton-copiar{
+        margin: 0% -15%;
+    }
+
+    .reglas{
+        position: relative;
+        display:flex;
+        left: 10%;
+        top: 480px;
+        font-size: 46px;
+        width: 80%;
+        margin: 0px;
+    }
+
+    .advertencia-posicion{
+        font-size: 46px;
+        left: -8%;
+        bottom: 75px;
+    }
+
+    .caja-posicion{
+        position: relative;
+        width: 800px;
+        height: 360px;
+        left: 7%;
+        top: 250px;
+        margin: 0% 0%;
+    }
+
+    .caja-caja{
+        position: relative;
+        padding: 5%;
+    }
+
+    .imagen-predeterminada{
+        display: none;
+    }
+
+    .dibujo{
+        display: none;
+    }
+
+
+    .dibujo-minecraft{
+        display: none;
+    }
+
+    #parrafo-receptor{
+        font-size:46px;
+    }
+
+    #text-receptor{
+        font-size:46px;
+        border: 2px solid black;
+        width: 700px;
+        height: 225px;
+    }
+
+    .cuerpo-minecraft{
+        background-image: url(minecraft-telefono.jpg);
+        background-size: 61em 138em;
+    }
+
+    .tipografia-minecraft-parrafo{
+        width: 800px;
+    }
+
+    .estilo-autor{
+        position: absolute;
+        top: 68em;
+        font-size: 30px;
+    }
+    
+    .estilo-autor-mine{
+        position: absolute;
+        top: 68em;
+        font-size: 30px;
+    }
+}
